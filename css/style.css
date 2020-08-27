@@ -66,8 +66,12 @@ text-align: left;
 color: #fff;
 }
 
-.etymology-area p, .art-area p, .contact-area p{
+.art-area p, .contact-area p{
 text-align: right;
+}
+
+.etymology-area p {
+text-align: center;
 }
 
 button {
