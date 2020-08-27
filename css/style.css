@@ -25,7 +25,7 @@ font-size: 48px;
   color: #fff;
 }
 
-.etymology-area, .about-area, .art-area, .determination-area, .contact-area {
+.etymology-area, .about-area, .art-area, .determination-area, .contact-area, .disclaimer-area {
 position: relative;
 display: flex;
 justify-content: space-around;
@@ -52,7 +52,7 @@ font-size: 30px;
 line-height: 50px;
 }
 
-.about-area, .determination-area {
+.about-area, .determination-area, .disclaimer-area {
 background-color: #fefefe;
 color: #0d7852;
 }
@@ -69,7 +69,7 @@ color: #fff;
 text-align: right;
 }
 
-.etymology-area p {
+.etymology-area p , .disclaimer-area p{
 text-align: center;
 }
 
@@ -96,6 +96,17 @@ float: left;
 .contents a {
 color: #fff;
 font-size: 100px;
+}
+
+.music {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.music a {
+color: #0d7852;
 }
 
 html {
