@@ -8,9 +8,8 @@ font-family: 'Roboto Slab', serif;
 position: relative;
 width: 100%;
 height: 100vh;
-background-image:url(me.png);
-background-repeat: no-repeat;
--webkit-background-size: cover;
+background:url(me.png) no-repeat center fixed; 
+background-size: cover;
 }
 
 .personal-text {
