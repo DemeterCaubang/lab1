@@ -73,6 +73,13 @@ text-align: right;
 text-align: center;
 }
 
+.disclaimer {
+color: black;
+font-family: calibri;
+font-size: 20px;
+line-height: 20px;
+}
+
 button {
   background-color: #0d7852;
   border: none;
