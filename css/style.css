@@ -14,6 +14,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+/* text in banner */
 .personal-text {
 line-spacing: 1px;
 font-size: 48px;
@@ -25,6 +26,19 @@ font-size: 48px;
   color: #fff;
 }
 
+/* button in banner */
+button {
+  background-color: #0d7852;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+/* outer containers */
 .etymology-area, .about-area, .art-area, .determination-area, .contact-area, .disclaimer-area {
 position: relative;
 display: flex;
@@ -36,22 +50,26 @@ width: 100%;
 height: 700px;
 }
 
+/* text container to set text margin */
 .text-part {
 width: 65%;
 height: 80%;
 }
 
+/* headers of each outer container */
 h1 {
 font-size: 50px;
 font-family: 'Anton', sans-serif;
 text-align: center;
 }
 
+/* text content of outer container */
 p {
 font-size: 30px;
 line-height: 50px;
 }
 
+/* outer divisions with white backgrounds */
 .about-area, .determination-area, .disclaimer-area {
 background-color: #fefefe;
 color: #0d7852;
@@ -61,6 +79,7 @@ color: #0d7852;
 text-align: left;
 }
 
+/* outer divisions with transparent backgrounds */
 .etymology-area, .art-area, .contact-area {
 color: #fff;
 }
@@ -73,24 +92,7 @@ text-align: right;
 text-align: center;
 }
 
-.disclaimer {
-color: black;
-font-family: calibri;
-font-size: 20px;
-line-height: 20px;
-}
-
-button {
-  background-color: #0d7852;
-  border: none;
-  color: #fff;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-}
-
+/* icons in contact-area*/
 .contents {
 display:flex;
 flex-direction: column;
@@ -100,11 +102,13 @@ padding: 20px;
 float: left;
 }
 
+/* text with icons */
 .contents a {
 color: #fff;
 font-size: 100px;
 }
 
+/* inside disclaimer-area*/
 .music {
 display: flex;
 flex-direction: column;
@@ -114,6 +118,13 @@ align-items: center;
 
 .music a {
 color: #0d7852;
+}
+
+.disclaimer {
+color: black;
+font-family: calibri;
+font-size: 20px;
+line-height: 20px;
 }
 
 html {
